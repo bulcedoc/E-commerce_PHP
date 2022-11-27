@@ -1,0 +1,143 @@
+.products_div{
+    background-color: rgb(255, 255, 255);
+   margin: 0;
+   overflow: auto;
+   
+    display: flex;
+    flex-direction:row;
+   flex-wrap: wrap;
+    justify-items:center;
+    justify-content: center;
+     
+     
+}
+.item_div{
+   background-color: rgb(212, 51, 51);
+   height: auto;
+   width: 750px;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   margin: 25px;
+   border-radius: 25px;
+   justify-items: center;
+   padding: 10px;
+
+   
+}
+.item_design{
+    overflow: auto;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    justify-items: center;
+    padding: 10px;
+    
+}
+.but{
+
+    align-content: center;
+    text-align: center;
+    border-radius: 25px;
+    height: 25px;
+    width: 250px;
+    padding: 5px;
+    padding-top: 10px;
+    background-color:rgb(34, 34, 34);
+    border-radius: 25px;
+    
+    
+}
+.img-div{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    margin: 10px;
+    
+    height: 200px;
+  object-fit: contain;
+    
+}
+.hello{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+@media screen and (max-width: 750px) {
+    .products_div{
+        background-color:rgb(255, 255, 255);
+       margin: 0;
+     
+       
+        display: flex;
+        flex-direction:row;
+       flex-wrap: wrap;
+        justify-items:center;
+        justify-content: center;
+         
+         
+    }
+    h4{
+        margin: 0;
+    }
+    h3{
+        margin: 0;
+    }
+    p{
+
+        margin: 0;
+        margin-top: 10px;
+    }
+    .item_div{
+        background-color: rgb(212, 51, 51);
+        height: auto;
+        width: 350px;
+       margin: 20px;
+        display: flex;
+        flex-direction:column;
+        flex-wrap: wrap;
+        border-radius: 25px;
+     
+        
+     }
+     .item_design{
+         text-align: center;
+         overflow: auto;
+         display: flex;
+         flex-direction:column;
+         flex-wrap: wrap;
+         color: rgb(255, 255, 255);
+         justify-content: center;
+         align-items: center;
+        
+       
+     }
+     .but{
+     
+         align-content: center;
+         text-align: center;
+         border-radius: 25px;
+         height: 25px;
+         width: 70px;
+         padding-top: 20px;
+         padding: 5px;
+        margin: 10px;
+         background-color:rgb(34, 34, 34);
+         border-radius: 25px;
+         
+         
+     }
+     .img-div{
+     
+         width: auto;
+       object-fit: contain;
+         
+     }
+
+   
+}
